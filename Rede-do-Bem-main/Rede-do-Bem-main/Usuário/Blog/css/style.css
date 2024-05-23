@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FCF7F7;
+}
+
+#container{
+    width: 100%;
+    height: 400px;
+}
+
+.cabecario{
+    background-color: #FCF7F7;
+    width: 100%;
+    height: 100px;
+}
+
+.apresentacao{
+    background-color: #FA9D5A;
+    width: 100%;
+    height: 300px;
+}
+
+#container2{
+    background-color: blue;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+}
+
+.foto{
+    background-color: antiquewhite;
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 10%; /* Adjusted margin-right */
+}
+
+.descricao{
+    background-color: antiquewhite;
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+    margin-right: 20%;
+}
+    
