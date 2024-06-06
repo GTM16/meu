@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FA9D5A;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: red;
+}
+
+#container {
+    background-color: #FFFFFF80;
+    padding: 20px;
+    border-radius: 15px;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;     
+    flex-direction: row;
+}
+
+#container2 {   
+    padding: 20px;
+    width: 320px; 
+    height: 460px;
+}
+
+.fotos {
+    background-color: white;
+    height: 350px;
+    width: 250px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: max-content; 
+}
+
+.geral {
+    margin-top: 10px;
+    width: 270px;
+    height: 50px;
+}
+
+.um, .dois, .tres, .quatro {
+    display: inline-block;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.container3 {
+    padding: 20px;
+    width: 400px; 
+    height: 460px;  
+}
+
+#nome{
+    height: 30px;
+    width: 320px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.opcao {
+    display: flex;
+    justify-content: space-between; /* Alinha os elementos nos cantos */
+    align-items: center; /* Centraliza verticalmente */
+    margin-top: 10px;
+    height: 50px;
+    width: 320px;
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#tipo {
+    height: 30px;
+    width: 130px;
+    border-radius: 15px;
+    padding-left: 5px;
+    border: none;
+}
+
+#genero {
+    height: 30px;
+    width: 130px;
+    border-radius: 15px;
+    padding-left: 5px;      
+    border: none;
+}
+
+#porte {
+    height: 30px;
+    width: 130px;
+    border-radius: 15px;
+    padding-left: 5px;
+    border: none;
+}
+
+#idade {
+    height: 30px;
+    width: 130px;
+    border-radius: 15px;
+    padding-left: 5px;      
+    border: none;
+}
+
+#historia{
+    resize: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    border: none;
+}
